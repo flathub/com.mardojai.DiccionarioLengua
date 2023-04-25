@@ -1,7 +1,7 @@
 {
   "app-id": "com.mardojai.DiccionarioLengua",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "43",
+  "runtime-version": "44",
   "sdk": "org.gnome.Sdk",
   "command": "diccionario-lengua",
   "finish-args": [
@@ -33,8 +33,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/rafaelmardojai/diccionario-lengua.git",
-          "tag": "0.1.1",
-          "commit": "033eb8aed6a87132a5dbe2c76452d50e67ade3f8"
+          "tag": "0.2.0",
+          "commit": "9c6c2c5514dd1609ecdc231636fc7da80ffa7963"
         }
       ]
     }
