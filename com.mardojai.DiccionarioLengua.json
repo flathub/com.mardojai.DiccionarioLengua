@@ -1,7 +1,7 @@
 {
   "app-id": "com.mardojai.DiccionarioLengua",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "command": "diccionario-lengua",
   "finish-args": [
