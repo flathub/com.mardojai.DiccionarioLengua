@@ -1,7 +1,7 @@
 {
   "app-id": "com.mardojai.DiccionarioLengua",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "diccionario-lengua",
   "finish-args": [
@@ -17,12 +17,12 @@
       "buildsystem": "meson",
       "cleanup": ["*"],
       "sources": [
-          {
-              "type": "git",
-              "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-              "tag": "v0.8.1",
-              "commit": "aa7679618e864748f4f4d8f15283906e712752fe"
-          }
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
+          "tag": "0.18.0",
+          "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
+        }
       ]
     },
     {
@@ -33,8 +33,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/rafaelmardojai/diccionario-lengua.git",
-          "tag": "0.4.0",
-          "commit": "33d0d6734195f04c4b4b3cb79f02bd85b65b9721"
+          "tag": "1.0.0",
+          "commit": "2189407d16cecb25a3aa50c93d2991192d771d43"
         }
       ]
     }
